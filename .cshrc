@@ -41,7 +41,7 @@ if ($?prompt) then
 	endif
 
 endif
-setenv ESBUILD_BINARY_PATH /home/marto/repos/esbuild/cmd/esbuild/esbuild
+setenv ESBUILD_BINARY_PATH /home/marto/repos/esbuild/esbuild
 
 set path = ($HOME/bin $path)
 
