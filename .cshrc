@@ -54,3 +54,4 @@ setenv PATH ${HOME}/Downloads/fzf/bin:${PATH}
 setenv TERM screen-256color
 alias config '/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+setenv JAVA_HOME /usr/local/openjdk11
