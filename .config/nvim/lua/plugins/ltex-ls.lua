@@ -13,6 +13,11 @@ return {
           language = auto,
           enabled = { "tex", "latex", "markdown", "text", "bib" }, -- Supported filetypes
           diagnosticSeverity = "information",
+          sentenceCacheSize = 2000,
+          additionalRules = {
+            enablePickyRules = true,
+            motherTongue = "de",
+          },
           disabledRules = {},
           dictionary = (function()
             -- For dictionary, search for files in the runtime to have
