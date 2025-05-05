@@ -3,6 +3,7 @@ return {
   build = false,
   opts = {
     width = 100,
+    command_timeout = 60000,
   },
   dependencies = {
     "MunifTanjim/nui.nvim",
