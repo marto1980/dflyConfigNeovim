@@ -1,0 +1,11 @@
+--- config.lua	2025-05-09 10:26:50.974388000 +0300
++++ config_modified.lua	2025-05-09 10:32:19.406025000 +0300
+@@ -52,7 +52,7 @@
+             end
+         end
+         return "linux"
+-    elseif os:find("bsd") then
++    elseif os:find("bsd") or os:find("dragonfly") then
+         return "bsd"
+     end
+ 
